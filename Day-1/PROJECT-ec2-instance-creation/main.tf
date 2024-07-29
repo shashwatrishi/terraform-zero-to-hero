@@ -8,5 +8,5 @@ resource "aws_instance" "example" {
 }
 
 resource "aws_s3_bucket" "lock_bucket"{
-    bucket_name = ""
+    bucket = "abhishek-s3-demo-xyz"
 }
